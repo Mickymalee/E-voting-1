@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eVote-ing</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <nav id="navbar">
+        <img src="images/Logo.png" class="logo">
+        <ul>
+            <li><a href="C:\Users\Windows10\Desktop\Evoting\e-Voting-ing(Home).HTML" class="hover-text">Home</a></li>
+            <li><a href="C:\Users\Windows10\Desktop\Evoting\Candidate.HTML" class="hover-text">Candidate Profile</a></li>
+            <li><a href="C:\Users\Windows10\Desktop\Evoting\AboutUS.HTML" class="hover-text">About us</a></li>
+            <li><a href="#" class="hover-text">Help</a></li>
+        </ul>
+        <a href="C:\Users\Windows10\Desktop\Evoting\Login and Register.HTML" class="button">Login</a>
+    </nav>
+    <div class="header">
+        <h1>Welcome to<br>e-Vote-ing</h1>
+        <p>eVoting website using the BlockChain technology.</p>
+    </div>
+    <script>
+        let navbar = document.getElementById('navbar');
+        window.onscroll = function(){
+            if(window.scrollY > 0){
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+    </script>
+<!----------------Information------------------>
+    <div class="Information">
+        <div class="What-1 highlight">
+            <h1>What does e-Vote-ing offer?</h1>
+            <p>e-Vote-ing offer traditional eVoting system with Blockchain to increase security.</p>
+            <br><br>
+            <h1>Why does we create this?</h1>
+            <p>To further spread the eVoting and Blockchain.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eVote-ing</title>
+    <link rel="stylesheet" href="bAboutUS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <nav id="navbar">
+        <img src="images/Logo.png" class="logo">
+        <ul>
+            <li><a href="C:\Users\Windows10\Desktop\Evoting\e-Voting-ing(Home).HTML" class="hover-text">Home</a></li>
+            <li><a href="C:\Users\Windows10\Desktop\Evoting\Candidate.HTML" class="hover-text">Candidate Profile</a></li>
+            <li><a href="C:\Users\Windows10\Desktop\Evoting\AboutUS.HTML" class="hover-text">About us</a></li>
+            <li><a href="#" class="hover-text">Help</a></li>
+        </ul>
+        <a href="C:\Users\Windows10\Desktop\Evoting\Login and Register.HTML" class="button">Login</a>
+    </nav>
+    <div class="header">
+        <h1>Candidate<br>Profile</h1>
+        <p>We are group of people that want to change the way voting works.<br>--------------------<br>We want to improve this voting way without anything to return.</p>
+        <p>--------------------<br>We want to spread blockchain network to use widely.</p>
+        <p>--------------------<br>We are E-Vote-r</p>
+    </div>
+    <script>
+        let navbar = document.getElementById('navbar');
+        window.onscroll = function(){
+            if(window.scrollY > 0){
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
